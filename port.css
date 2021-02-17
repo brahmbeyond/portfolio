@@ -1,0 +1,108 @@
+.navbar{
+  width:100%;
+  overflow:hidden;
+  position:fixed;
+  background-color:#ff66ff;
+  border:3px solid #ff66ff;
+}
+#link1{
+  float:right;
+  margin:auto;
+  text-align:center;
+  padding:13px 20px ;
+  text-decoration:none;
+  color:white;
+  font-size:22px;
+  transition:background .5s ease,color .5s ease;
+}
+#link1:hover{
+  background-color:white;
+  color:#00802b;
+  border-radius:5px;
+}
+#welcome-section{
+  height:100vh;
+  width:100%;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  background-color:#b84dff;
+  margin-bottom:40px;
+}
+.welcome{
+  background-color:white;
+  padding:55px;
+  boder-radius:5px;
+}
+#h1{
+  color:#b84dff;
+  font-size:50px;
+  font-family:Piedra,jokerman;
+}
+#h2{
+  color:#b84dff;
+  text-align:center;
+  font-size:27px;
+  font-family:Piedra;
+}
+#projects{
+  background-color:#99ddff;
+}
+#contact-section{
+  width:100%;
+  height:100vh;
+  display:;
+  text-align:center;
+}
+.contact-links{
+   height:100vh;
+  width:100%;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  background-color:#00e6ac;
+  margin-bottom:px;
+  color:white;
+  font-size:30px; 
+  font-weight:bold;
+  line-height:1.7;
+}
+u{
+  text-decoration: none;
+    border-bottom: 3px solid  #9933ff ;
+}
+#contact{
+  transition:background 1s ease,color 1s ease;
+}
+#contact:hover{
+  padding:13px;
+  background-color:white;
+  color:#00e6ac;
+  border-radius:5px;
+}
+
+@media screen and (max-width:750px){
+  #navbar{position:fixed;
+    background-color:#ff66ff;
+    width:100%;
+      margin-left:0px;
+  }
+  #link1{
+        font-size:15px;
+    padding:7px ;
+}
+  #h1{
+    font-size:28px;
+  }
+  #h2{
+    font-size:23px;
+  }
+  .welcome{
+    padding:10px;
+  }
+  .contact-links{
+    font-size:15px;
+  }
+}

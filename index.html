@@ -1,417 +1,127 @@
-<!--
-Created using JS Bin
-http://jsbin.com
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Piedra"rel="stylesheet"/>
+<link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+<link rel="stylesheet" href="port.css">
 
-Copyright (c) 2020 by shuhzz (http://jsbin.com/ligamak/55/edit)
-
-Released under the MIT license: http://jsbin.mit-license.org
--->
-<meta name="robots" content="noindex">
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title><img class="img1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSfucdF7m3o3tLCDO3_96nrMY-Q8hcLIYdwbUrf2Njh2F24wISB&usqp=CAU">Github</title>
-    <header>
-      <img class="img2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSfucdF7m3o3tLCDO3_96nrMY-Q8hcLIYdwbUrf2Njh2F24wISB&usqp=CAU">
-      <button class="b1">Search or jump to...</button>
-      <ul id="ul">
-        <li>Pull requests </li>
-        <li>Issues </li>
-        <li>Marketplace </li>
-        <li>Explore </li>
-      </ul>
-      <div><i class="fas fa-bell">
-       <i class="fas fa-plus"></i>
-        <i class="far fa-plus-square"></i>
-         
-    </header>
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-  <style id="jsbin-css">
-section{
-  display:flex;
-}
-body{
-  background-color:;
-  height:1281px;
-}
-.img1{
-  width:20px;
-  height:20px;
-}
- 
-.img2{
-  width:30px;
-  height:30px;
-}
- 
-
-header{
-  background-color:black;
-  padding:5px;
-  padding-left:0px;
-  display:flex;
-  width:1287px;
- 
-  padding-right:0px 0px 0px 0px ;
-}
-div{
-  padding-left:370px;
-}
-
-.b1{
-  width:280px;
-  height:30px;
-  border:none;
-  text-align:left;
-  background-color:#383838;
-  color:#808080;
-  cursor:pointer;
-  border-radius:3px;
-}
-#ul{
-  color:white;
-  list-style:none;
-  display:flex;
-  padding-right:171px;
-  
-  
-}
-li{
-  padding-right:22px;
-}
-.b2{
-  width:58px;
-  height:30px;
-  border:none;
-  text-align:center;
-  background-color:#00b33c;
-  color:white;
-  cursor:pointer;
-  border-radius:3px;
-}
-.fas{
-  color:white;
-}
-#book{
-  color:black;
-}
-
-span{
-    word-spacing: 30px;
-}
-.b3{
-  width:250px;
-  height:40px;
-  border: 1px solid #bfbfbf;
-  text-align:left;
-  background-color:white;
-  color:grey;
-  cursor:pointer;
-  
-  border-radius:3px;
-}
-.p1{
-  color:blue;
-}
-.p1:hover{
-  text-decoration:underline;
-}
-.b4{
-  width:150px;
-  height:30px;
-   border: 1px solid #bfbfbf;
-  text-align:center;
-  background-color:white;
-  color:blue;
-  cursor:pointer;
-  border-radius:3px;
-}
-hr{
-  
-  color:#bfbfbf;
-}
-#light{
-  font-weight:200;
-}
-#a1{
-  
-  color:black;
-
-  padding-left:10px;
-  padding-right:30px;
-  padding-bottom:10px;
-  border-right:1px solid #bfbfbf;
-  height:1000;
-   top: 0;
-  }
-
-#middle{
-  font-size:28px;
-  font-family:Verdana;
-  font-weight:300;
-  
-}
-#middle2{
-  text-align:center;
-    font-size:28px;
-  font-family:Verdana;
-  font-weight:300;
-}
-#middle3{
-  text-align:center;
-    font-size:18px;
-  font-family:Verdana;
-  color:grey;
-  font-weight:300;
-  ;
-}
-#middle4{
-  text-align:center;
-    font-size:18px;
-  font-family:Verdana;
-  color:grey;
-  font-weight:300;
-}
-
-.b5{
-  width:240px;
-  height:40px;
-   border: 1px solid #bfbfbf;
-  text-align:center;
-  font-weight:bold;
-  font-size:14px;
-  background-color:#00b33c;
-  color:white;
-  cursor:pointer;
-  border-radius:5px;
-}
-.b6{
-  width:240px;
-  height:40px;
-   border: 1px solid #bfbfbf;
-  text-align:center;
-    font-weight:bold;
-  font-size:14px;
-  background-color:white;
-  color:#404040;
-  cursor:pointer;
-  border-radius:5px;
-}
-
-.up{
-  color:black;
-  border:1px solid grey ;  
-  padding-top:90px;
-  padding-bottom:80px;
-  padding-right:45px;
-  padding-left:65px;
-  margin-left:15px;
-  margin-bottom:px;
-    background-image: linear-gradient(90deg, #ccddff,#e6ffe6);
-                     
-  
-}
-
-#cross{
-  padding-left:546px;
-  
-}
-div{
-  color:black;
-  
-}
-#a3{
-  color:black;
-  padding-left:20px;
-}
-.pmd{
-    font-size:11px;
-  font-family:Verdana;
-  color:black;
-  font-weight:; 
-}
-.below{
-    font-size:11px;
-  font-family:Verdana;
-  color:#4d4d4d;
-  font-weight:50;
-}
-.exp{
-  font-family:verdana;
-  font-size:13px;
-}
-#hrb{
-  width:10px;
-}
-#orange{
-  color: 	 #802000;
-  
-}
-#blue{
-  color:#0066cc;
-}
-.div1{
-      font-size:11px;
-  font-family:Verdana;
-  color:#4d4d4d;
-  font-weight:50;
-
-   margin-top:50px;
-  padding-left:25px;
-}
-#bulb{
-  color:black;
-}
-#hrl{
-  
-  color: #f2f2f2;
-}
-#sus{
-    padding-left:1px;
-}
-#sus:hover{
-  text-decoration:underline;
-  color:#0066ff;
-}
-.div2{
-  font-size:13px;
-  font-family:Verdana;
-  color:#4d4d4d;
-  font-weight:50;
-  padding-left:25px;
-  display:flex;
-}
-#git{
-  font-size:20px;
-}
-#git:hover{
-  color:#000000;
-   
-}
-#icon{
-  padding-left:0px;
-  padding-right:100px;
-  color:#4d4d4d;
-}
-#icon:hover{
-  color:#000000;
-   
-}
-#l1{
-  padding-left:0px;
-  
-}
-#ul1{
-  list-style:none;
-  font-size:11px;
-  color:#4d4d4d;
-}
-#ul1:hover{
-  text-decoration:underline;
-  color:#0066ff;
-}
-</style>
-</head>
- 
-  <body>
-    <section>
-    <article id="a1" > 
-      
-      <p>Repositories      
-      <button class="b2"><i class="fas fa-book"></i>  New</button></p>
-      <br>
-    <button class="b3">Find a repository...</button>
-    <br>
-      <p class="p1"><i id="book" class="fas fa-book"></i>shuhzz/github-slideshow</p>
-      <br><hr> 
-      <p>Working with a team?</p> 
-      <p id="light"> GitHub is built for collaboration. Set up an <br> 
-       organization to improve the way your team  <br>
-       works together, and get access to more  <br>
-       features.
-       <br>
-       </p>
-       <button class="b4">Create an organization</button>
-      
-      </article >
-     
-      <article id="a2" >
-        
-        <div class="up">
-          <i id="cross" class="far fa-times-circle"></i>
-        <p id="middle">Learn Git and GitHub without any</p>
-        <p id="middle2">code!</p>
-        <p id="middle3">Using the Hello World guide, you’ll create a repository, start a </p>
-        <p id="middle4">branch, write comments, and open a pull request. </p>
-        <button class="b5">Read the guide</button>
-        <button class="b6">Start a project</button>
-        
-       </div>
-        <div class="div1">
-          <hr id="hrl"><br>
-          <i id="bulb" class="far fa-lightbulb"></i> ProTip! The feed shows you events from people you follow and repositories you watch. <br><br>
-          <div id="sus"><i id="bulb" class="fas fa-wifi"></i>Subscribe to your news feed</div><br>
-        <br><br><br><br><br>
-        </div> 
-        
-        <div class="div2">
-            
-          <div id="icon"><i id="git" class="fab fa-github"></i> © 2020 GitHub, Inc. </div>
-             <div id="l1">
-                <ul id="ul1">
-                   <li> Blog </li><br>
-                   <li>  About</li><br>
-                   <li> Shop</li><br>
-                    <li> Contact <br>GitHub</li><br>
-                  <li> Pricing</li><br>
-                 </ul>
-            </div>
-            <div id="l1">
-              <ul id="ul1">    
-                  <li>API</li><br>
-                   <li> Training</li><br>
-                  <li>Status</li><br>
-                   <li> Security</li><br>
-               </ul>
-            </div>
-            <div id="l1">
-              <ul id="ul1" >
-                  <li> Terms</li><br>
-                   <li>Privacy</li><br>
-                   <li>Help</li><br>
-               </ul>
-            </div>
-          
-          </div>
-      </article>
-              
-     
-        
-        
-            
-          
-      
-      <article id="a3">
-        
-        <p class="exp">Explore repositories </p>  
-        <p class="pmd">pmd/pmd</p>
-         <p class="below">An extensible multilanguage static code analyzer.<br><br>
-         <i id="orange" class="fas fa-circle"></i>Java <i id="" class="far fa-star"></i>2.9k </p><hr>
-        <p class="pmd">splitbee/notion-api-worker</p>
-         <p class="below">Notion as CMS with easy API access <br><br>
-         <i id="blue" class="fas fa-circle"></i>TypeScript <i id="" class="far fa-star"></i>241 </p><hr>
-        <p class="pmd">framer/motion</p>
-          <p class="below">Open source, production-ready animation and gesture
-          library for React <br><br>
-          <i id="blue" class="fas fa-circle"></i>TypeScript <i id="" class="far fa-star"></i>5.2k 
-        </p>
-        <p>Explore more → </p>
+<div class="navbar">
+  <nav id="navbar">
+    <ul>
+      <a id="link1" class="nav-link" href="#welcome-section">About</a>
+      <a id="link1" class="nav-link" href="#projects">Projects</a>
+      <a id="link1" class="nav-link" href="#contact-section">Contact</a>
+    </ul>
+  </nav>
+</div>  
+<section id="welcome-section">
+  <div class="welcome">
+    <h1 id="h1"> Hey I am Shubham </h1>
+    <h2 id="h2">Learner at FCC</h2>
+  </div>
+</section>  
+<section id="projects">
+  <div class="project-tile">
+   <section class="text-gray-700 body-font">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="flex flex-wrap w-full mb-20 flex-col items-center text-center">
+      <h1 id="head" class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">These are some of my projects</h1>
+      <p class="lg:w-1/2 w-full leading-relaxed text-base"></p>
+    </div>
+    <div class="flex flex-wrap -m-4">
+      <div class="xl:w-1/3 md:w-1/2 p-4">
+        <div class="border border-gray-300 p-6 rounded-lg">
+             <a
+      href="https://codepen.io/shubzzzz/full/zYrNbjR"
+      target="_blank"
+      class="project project-tile">
     
-         
-      </article>
-               
+          <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Tribute Page</h2>
+          <p class="leading-relaxed text-base">FCC Project</p>
+        </div>
+      </div>
+      <div class="xl:w-1/3 md:w-1/2 p-4">
+        <div class="border border-gray-300 p-6 rounded-lg">
+           <a
+      href="https://codepen.io/shubzzzz/pen/bGERRem"
+      target="_blank"
+      class="project project-tile"
+    >
       
-    </section>
-      </body>
-  
-</html>  
+          <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Survey Form</h2>
+          <p class="leading-relaxed text-base">FCC Project</p>
+        </div>
+      </div>
+      <div class="xl:w-1/3 md:w-1/2 p-4">
+        <div class="border border-gray-300 p-6 rounded-lg">
+           <a
+      href="https://codepen.io/shubzzzz/pen/wvMejra"
+      target="_blank"
+      class="project project-tile"
+    >
+          <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Product Landing Page</h2>
+          <p class="leading-relaxed text-base">FCC Project</p>
+        </div>
+      </div>
+      <div class="xl:w-1/3 md:w-1/2 p-4">
+        <div class="border border-gray-300 p-6 rounded-lg">
+          <a
+      href="https://codepen.io/shubzzzz/pen/VwezKLx"
+      target="_blank"
+      class="project project-tile"
+    >
+          <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Technical Documentation Page</h2>
+          <p class="leading-relaxed text-base">FCC Project</p>
+        </div>
+      </div>
+      <div class="xl:w-1/3 md:w-1/2 p-4">
+        <div class="border border-gray-300 p-6 rounded-lg">
+           <a
+      href="https://codepen.io/shubzzzz/full/JjGyrVj"
+      target="_blank"
+      class="project project-tile"
+    >
+          <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Personal Portfolio Webpage</h2>
+          <p class="leading-relaxed text-base">FCC Project</p>
+        </div>
+      </div>
+      <div class="xl:w-1/3 md:w-1/2 p-4">
+      
+      </div>
+    </div>
+    <button class="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg"><a href="https://codepen.io/dashboard?type=VIEW&opts_itemType=PEN&opts_searchTerm=null&opts_order=RELEVANCE&opts_depth=EVERYTHING&opts_showForks=false&opts_filter=all&opts_orderBy=ID&opts_orderDirection=0&opts_tag=null&displayType=GRID&previewType=IFRAME&activeType=PEN" target="_blank">View All</a></button>
+  </div>
+</section>
+  </div>
+</section>
+<section id="contact-section">
+  <div class="contact-section-header">
+    <h1 id="h1"><u>Let's work together...</h1>
+    <h2 id="h2">Contact ME</u></h2>
+  </div>
+  <div class="contact-links">
+    <div id="contact"><a
+      href="https://www.facebook.com/shruti.rai.1694059/"
+      target="_blank"
+      class="btn contact-details"
+      ><i class="fab fa-facebook-square"></i> Facebook</a
+      ></div>
+    <div id="contact"><a
+      id="profile-link"
+      href="https://github.com/shuhzz?tab=repositories"
+      target="_blank"
+      class="btn contact-details"
+      ><i class="fab fa-github"></i> GitHub</a
+      ></div>
+    <div id="contact"><a
+      href="https://twitter.com/Shubham93208382"
+      target="_blank"
+      class="btn contact-details"
+      ><i class="fab fa-twitter"></i> Twitter</a
+    ></div>
+    <div id="contact"><a href="mailto:shubham924.yadav@gmail.com" class="btn contact-details"
+      ><i class="fas fa-at"></i> Send a mail</a
+    ></div>
+    <div id="contact"><a href="https://codepen.io/shubzzzz" class="btn contact-details"
+      ><i class="fas fa-mobile-alt"></i>Codepen</a
+    </div>
+  </div>
+</section>  
